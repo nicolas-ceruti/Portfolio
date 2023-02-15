@@ -4,36 +4,19 @@ export const projects = [
     subtitle: "React, Python & Kotlin",
     description:
       "TMS that facilitates the management of logistics operators and allows monitoring vehicles in real time. The project has management software for web browsers and a platform for mobile devices.",
-    image: "./project-1.gif",
+    image: "./trailer-trucks-driving-on-the-road-surrounded-by-beautiful-green-trees.jpg",
     link: "https://github.com/nicolas-ceruti/ITracker-Web",
   },
   {
     title: "Condo+",
     subtitle: "Java",
     description:
-      "Residential building management software developed in Java",
-    image: "./java1.png",
+      "Residential building management software developed in Java. In addition to the main functions, the software has an calendar to reserve spaces and notifications board.",
+    image: "./view-of-downtown-raleigh-north-carolina-from-street-level-hdr-image.jpg",
     link: "https://github.com/nicolas-ceruti/CondoPlus",
   },
 
 ];
-
-// export const testimonials = [
-//   {
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-//     image: "https://randomuser.me/api/portraits/men/1.jpg",
-//     name: "Jesse Hicks",
-//     company: "Zoozle",
-//   },
-//   {
-//     quote:
-//       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa quod necessitatibus quidem impedit facilis? Distinctio laboriosam veritatis recusandae minus. Voluptatum accusantium hic laudantium soluta ea sapiente cupiditate officia maiores itaque.",
-//     image: "https://randomuser.me/api/portraits/men/94.jpg",
-//     name: "Ruben Alvarez",
-//     company: "Dooble.io",
-//   },
-// ];
 
 export const skills = [
   {
@@ -61,3 +44,19 @@ export const skills = [
     level: "Basic"
   },
 ];
+
+export const knowledge = [
+  {
+    name: "Computer Sciences",
+    institution: "FURB"
+  },
+  {
+    name: "Engineering and Software Development Technician",
+    institution: "CEDUP"
+  },
+  {
+    name: "Dev the Devs",
+    institution: "PUCRS"
+  },
+];
+

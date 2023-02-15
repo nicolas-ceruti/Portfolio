@@ -12,11 +12,11 @@ export default function About() {
           </h1>
           <p className="mb-8 leading-relaxed">
             Software Developer | Software Engineering Technician <br/>
-            Competent and committed to the smooth running of routines and tasks. My goal is to develop my skills to the maximum and put my knowledge into practice, adding value to the team.
+            Mid-Level Full Stack Developer with experience developing web applications and web technologies.
           </p>
           <div className="flex justify-center">
             <a
-              href="#contact"
+              href="https://www.linkedin.com/in/nicolasceruti/"
               className="inline-flex text-white bg-green-500 border-0 py-2 px-6 focus:outline-none hover:bg-green-600 rounded text-lg">
               Send Message
             </a>
