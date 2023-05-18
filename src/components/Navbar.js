@@ -1,7 +1,25 @@
 import { ArrowRightIcon } from "@heroicons/react/solid";
 import React from "react";
+import resume from '../resume.pdf'
 
+ 
 export default function Navbar() {
+
+  const download = () => {
+    const fileUrl = '../../../../resume.pdf'; // Substitua pela URL do seu arquivo PDF
+    const fileName = 'Nicolas_Ceruti.pdf'; // Substitua pelo nome que deseja dar ao arquivo
+
+    // Cria um link temporário
+    const link = document.createElement('a');
+    link.href = resume;
+    link.download = fileName;
+
+    // Clica no link para iniciar o download
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+
   return (
     <header className="bg-gray-800 md:sticky top-0 z-10">
       <div className="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
@@ -19,6 +37,9 @@ export default function Navbar() {
           </a>
           <a href="#knowledge" className="mr-5 hover:text-white">
             Education
+          </a>
+          <a onClick={download} id="download-btn" className="mr-5 hover:text-white">
+            Download Resume
           </a>
         </nav>
         <a
