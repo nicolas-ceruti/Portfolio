@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar";
 import Projects from "./components/Projects";
 import Skills from "./components/Skills";
 import Knowledge from "./components/Knowledge";
+import './index.css'
 
 export default function App() {
   return (

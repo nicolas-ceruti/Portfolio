@@ -1,6 +1,6 @@
 export const projects = [
   {
-    title: "FleetEase",
+    title: "FleetEase Web",
     subtitle: "React, Python, Kotlin & MySQL",
     description:
       "TMS that facilitates the management of logistics operators and allows monitoring vehicles in real time. The project has management software for web browsers and a platform for mobile devices.",
@@ -15,7 +15,22 @@ export const projects = [
     image: "./view-of-downtown-raleigh-north-carolina-from-street-level-hdr-image.jpg",
     link: "https://github.com/nicolas-ceruti/CondoPlus",
   },
-
+  {
+    title: "Nest API",
+    subtitle: "Node(NestJS) & MongoDB",
+    description:
+      "API developed with NestJS. The project has features to send emails, save files on the system and log events with RabbitMQ",
+    image: "./view-of-downtown-raleigh-north-carolina-from-street-level-hdr-image.jpg",
+    link: "https://github.com/nicolas-ceruti/NestJS-and-MongoDB",
+  },
+  {
+    title: "PHP API",
+    subtitle: "PHP & MySQL",
+    description:
+      "API in PHP that follows the industry-standard RESTful architecture. This project can be adapted to your preferences and includes the main CRUD endpoints.",
+    image: "./view-of-downtown-raleigh-north-carolina-from-street-level-hdr-image.jpg",
+    link: "https://github.com/nicolas-ceruti/NestJS-and-MongoDB",
+  }
 ];
 
 export const skills = [
@@ -36,12 +51,20 @@ export const skills = [
     level: "Basic"
   },
   {
-    name: "Java",
+    name: "Java8 +",
     level: "Advanced"
   },
   {
     name: "Typescript + ReactJS",
     level: "Basic"
+  },
+  {
+    name: "Node & Nest",
+    level: "Advanced"
+  },
+  {
+    name: "PHP",
+    level: "Advanced"
   },
 ];
 
@@ -51,7 +74,7 @@ export const knowledge = [
     institution: "FURB"
   },
   {
-    name: "Engineering and Software Development Technician",
+    name: "Engineering and Software Development",
     institution: "CEDUP"
   },
   {

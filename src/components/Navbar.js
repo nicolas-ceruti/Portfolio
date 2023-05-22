@@ -1,4 +1,4 @@
-import { ArrowRightIcon } from "@heroicons/react/solid";
+import { ArrowRightIcon, ArrowDownIcon } from "@heroicons/react/solid";
 import React from "react";
 import resume from '../resume.pdf'
 
@@ -39,7 +39,7 @@ export default function Navbar() {
             Education
           </a>
           <a onClick={download} id="download-btn" className="mr-5 hover:text-white">
-            Download Resume
+          <ArrowDownIcon className="mx-auto inline-block w-4 " />Resume
           </a>
         </nav>
         <a
