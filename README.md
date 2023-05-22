@@ -8,3 +8,6 @@ First project developed with Tailwind CSS.
 
 - Tailwind CSS : https://tailwindcss.com/
 - Inspiration : https://www.freecodecamp.org/news/author/reed/
+
+
+You can see in: [nicolasceruti.com](http://nicolasceruti.com/portfolio/)
